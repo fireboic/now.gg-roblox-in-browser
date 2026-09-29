@@ -1,12 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
     <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml" style="margin:0; width:100vw; height:100vh; background:#000; overflow:hidden;">
-            <iframe id="content-frame" style="width:100%; height:100%; border:none;"></iframe>
-            <script>
-                // Point the iframe directly to the full CDN link for nfg.html
-                const frame = document.getElementById('content-frame');
-                frame.src = "https://cdn.jsdelivr.net/gh/fireboic/now.gg-roblox-in-browser@main/nfg.html";
-            </script>
+        <div xmlns="http://www.w3.org/1999/xhtml" style="margin:0; width:100vw; height:100vh; background:#111; color:#fff; display:flex; justify-content:center; align-items:center; font-family:sans-serif;">
+            <div style="text-align: center;">
+                <h2>ROBLOX Web Wrapper Active</h2>
+                <p>Your CDN link is successfully routing!</p>
+            </div>
         </div>
     </foreignObject>
 </svg>
